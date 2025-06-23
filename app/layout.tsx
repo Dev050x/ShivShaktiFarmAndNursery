@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'ShivShakti',
   description: 'ShivShakti Farm And Nursery',
   icons: {
-    icon: '/favicon.ico',
+    icon: '/favicon.png',
   },
   generator: 'By Div H Patel',
 }

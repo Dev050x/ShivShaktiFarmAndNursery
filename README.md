@@ -1,7 +1,7 @@
 # 🌱 ShivShakti Farm & Nursery Website
 
-Modern, fast, and fully-typed Next.js application for ShivShakti Farm & Nursery.  
-It showcases our plants, services, and contact details while providing a streamlined admin experience.
+Modern, fast, fully-typed Next.js application for ShivShakti Farm & Nursery.  
+Showcases plants, services, and contact details while providing a streamlined admin experience.
 
 ---
 
@@ -40,33 +40,23 @@ It showcases our plants, services, and contact details while providing a streaml
 - Favicon & web-manifest in **`/public`**  
 - Zero-config image optimisation (`next/image`)  
 - Ready-to-use contact form with email forwarding (Resend)  
-- Strict TypeScript everywhere 📐
+- Strict TypeScript everywhere 📐  
 
 ---
 
 ## ⚡ Quick Start
 
-> Requires **Node 18 LTS +** and **pnpm** (recommended) or npm/yarn.
+Requires **Node 18 LTS+** and **pnpm** (recommended) or npm/yarn.
 
 ```bash
 # 1 – Clone
 git clone https://github.com/Dev050x/ShivShaktiFarmAndNursery.git
 cd ShivShaktiFarmAndNursery
 
-# 2 – Install deps
-pnpm install        # or npm install / yarn
+```bash
+# 2 – Install dependencies
+npm install        # or npm install / yarn install
 
-# 3 – Run dev server
-pnpm dev            # => http://localhost:3000
-
-
-.
-├── app/                # App Router routes & layouts
-│   ├── page.tsx
-│   └── ...
-├── components/         # Reusable UI pieces
-├── lib/                # Helpers (e.g. zod schemas)
-├── public/             # Static assets (favicon.png, og.png,…)
-├── styles/             # Tailwind globals / utilities
-├── .env.local.example  # Sample env variables
-└── next.config.mjs
+```bash
+# 3 – Run the development server
+npm dev            # ➜ http://localhost:3000

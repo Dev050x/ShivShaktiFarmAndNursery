@@ -53,10 +53,8 @@ Requires **Node 18 LTS+** and **pnpm** (recommended) or npm/yarn.
 git clone https://github.com/Dev050x/ShivShaktiFarmAndNursery.git
 cd ShivShaktiFarmAndNursery
 
-```bash
 # 2 – Install dependencies
 npm install        # or npm install / yarn install
 
-```bash
 # 3 – Run the development server
 npm dev            # ➜ http://localhost:3000

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.png',
   },
-  generator: 'By Div H Patel',
+  generator: 'By Div Patel',
 }
 
 export default function RootLayout({

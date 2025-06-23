@@ -4,6 +4,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'ShivShakti',
   description: 'ShivShakti Farm And Nursery',
+  icons: {
+    icon: '/favicon.ico',
+  },
   generator: 'By Div H Patel',
 }
 

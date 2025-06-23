@@ -142,7 +142,7 @@ export default function NurseryWebsite() {
               </span>
             </h1>
             <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto font-medium drop-shadow-sm">
-              Your trusted partner for premium plants, landscaping solutions, and gardening expertise in Valsad
+              Discover the best nursery in Valsad offering premium plants, professional landscaping solutions, and expert gardening advice. If you're searching for a 'nursery near me ?', visit our nursery today and grow with confidence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button

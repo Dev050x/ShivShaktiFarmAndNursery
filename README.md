@@ -5,20 +5,6 @@ Showcases plants, services, and contact details while providing a streamlined ad
 
 ---
 
-## 📑 Table of Contents
-1. [Tech Stack](#-tech-stack)
-2. [Features](#-features)
-3. [Quick Start](#-quick-start)
-4. [Project Structure](#-project-structure)
-5. [Configuration](#-configuration)
-6. [Scripts](#-scripts)
-7. [Deployment](#-deployment)
-8. [Contributing](#-contributing)
-9. [License](#-license)
-10. [Acknowledgements](#-acknowledgements)
-
----
-
 ## 🔧 Tech Stack
 
 | Layer          | Technology                                    |

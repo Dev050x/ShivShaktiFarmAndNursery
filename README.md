@@ -19,7 +19,6 @@ Showcases plants, services, and contact details while providing a streamlined ad
 
 ## ✨ Features
 
-- Responsive UI with dark-mode support  
 - SEO-ready metadata (`<head>` handled by Next.js)  
 - Dynamic routing via App Router (`/app`)  
 - Components built with Shadcn UI  

@@ -4,7 +4,7 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'ShivShakti',
   description: 'ShivShakti Farm And Nursery',
-  generator: 'By Div Patel',
+  generator: 'By Div H Patel',
 }
 
 export default function RootLayout({

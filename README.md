@@ -1,30 +1,72 @@
-# Shiv Shakti Farm Website
+# 🌱 ShivShakti Farm & Nursery Website
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+Modern, fast, and fully-typed Next.js application for ShivShakti Farm & Nursery.  
+It showcases our plants, services, and contact details while providing a streamlined admin experience.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/airdropcatcher5-9795s-projects/v0-shiv-shakti-farm-website)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/l3IBNPPWP6Y)
+---
 
-## Overview
+## 📑 Table of Contents
+1. [Tech Stack](#-tech-stack)
+2. [Features](#-features)
+3. [Quick Start](#-quick-start)
+4. [Project Structure](#-project-structure)
+5. [Configuration](#-configuration)
+6. [Scripts](#-scripts)
+7. [Deployment](#-deployment)
+8. [Contributing](#-contributing)
+9. [License](#-license)
+10. [Acknowledgements](#-acknowledgements)
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+---
 
-## Deployment
+## 🔧 Tech Stack
 
-Your project is live at:
+| Layer          | Technology                                    |
+| -------------- | --------------------------------------------- |
+| Framework      | **Next.js 14** (App Router, TypeScript)       |
+| Styling        | Tailwind CSS · Shadcn UI                      |
+| State / Utils  | React Hooks · Zod (validation)                |
+| Hosting        | Vercel (default) or any Node 18+ server       |
+| CI / Checks    | GitHub Actions + `next lint`                  |
 
-**[https://vercel.com/airdropcatcher5-9795s-projects/v0-shiv-shakti-farm-website](https://vercel.com/airdropcatcher5-9795s-projects/v0-shiv-shakti-farm-website)**
+---
 
-## Build your app
+## ✨ Features
 
-Continue building your app on:
+- Responsive UI with dark-mode support  
+- SEO-ready metadata (`<head>` handled by Next.js)  
+- Dynamic routing via App Router (`/app`)  
+- Components built with Shadcn UI  
+- Favicon & web-manifest in **`/public`**  
+- Zero-config image optimisation (`next/image`)  
+- Ready-to-use contact form with email forwarding (Resend)  
+- Strict TypeScript everywhere 📐
 
-**[https://v0.dev/chat/projects/l3IBNPPWP6Y](https://v0.dev/chat/projects/l3IBNPPWP6Y)**
+---
 
-## How It Works
+## ⚡ Quick Start
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+> Requires **Node 18 LTS +** and **pnpm** (recommended) or npm/yarn.
+
+```bash
+# 1 – Clone
+git clone https://github.com/Dev050x/ShivShaktiFarmAndNursery.git
+cd ShivShaktiFarmAndNursery
+
+# 2 – Install deps
+pnpm install        # or npm install / yarn
+
+# 3 – Run dev server
+pnpm dev            # => http://localhost:3000
+
+
+.
+├── app/                # App Router routes & layouts
+│   ├── page.tsx
+│   └── ...
+├── components/         # Reusable UI pieces
+├── lib/                # Helpers (e.g. zod schemas)
+├── public/             # Static assets (favicon.png, og.png,…)
+├── styles/             # Tailwind globals / utilities
+├── .env.local.example  # Sample env variables
+└── next.config.mjs
